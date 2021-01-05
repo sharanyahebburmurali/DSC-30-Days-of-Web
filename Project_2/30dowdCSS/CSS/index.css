@@ -1,0 +1,172 @@
+html{
+    background-color: FFFFFF;
+    font-family: 'Red Hat Display', sans-serif;
+}
+/*header*/
+header{
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    font-size: 130%;
+}
+.butt{
+    text-align: end;
+    float: right;
+    font-weight: bold;
+}
+
+header a{
+    text-decoration: none;
+    color:lightslategray;
+    padding-right:50px;
+}
+header a:hover{
+    color:#00171F;
+}
+.container1{
+    display: flex; 
+    align-items: center;
+    margin: 50px 50px;
+    padding: 30px 220px;
+}
+.container1 img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.container1 h1{
+    padding-top: 0px;
+    padding-left: 10px;
+    margin-bottom: 0;
+    font-size: 300%;
+    margin-top: 0;
+}
+.container1 h1 span{
+    color: #00A8E8 ;
+}
+.container2{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #003459;
+}
+.container2 p{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 150%;
+    color: white;
+}
+.container3{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 50px 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+.container3 table{
+    font-size: 130%;
+    color: #00171F;
+}
+table{
+    width: 100%;
+}
+table th,
+table td{
+    padding: 20px;
+    vertical-align: top;
+}
+th{
+    text-align: left;
+    
+}
+td{
+    height: 20px;
+    text-align: left;
+}
+.techskl{
+    width: 40%;
+}
+.softskl{
+    width: 40%;
+}
+.otherskl{
+    width: 30%;
+}
+
+.container4{
+    background-color: #003459;
+    padding: 50px 50px;
+}
+.container4 p{
+    font-size: 150%;
+    color: white;
+}
+input, button{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 120%;
+}
+form a{
+    color:#003459;
+}
+input[type="email"],
+input[type="tel"],
+input[type="text"],
+select
+{
+    width: 50%;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    height: 60px;
+    border: 1px solid lightgrey;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus
+{
+    border: 1px solid #cac0cf;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.50);
+}
+button{
+    width: 25%;
+    display: block;
+    box-sizing: border-box;
+    background-color:white;
+    color: #003459;
+    padding: 10px 0px;
+    border: 3px solid #003459;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    outline: none;
+}
+button:hover,
+button:focus{
+    background-color: #003459;
+    border: 3px solid #ffffff ;
+    color: white;
+}
+
+
+
+footer{
+    background-color: #00171F;
+    color: white;
+    padding-top:100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    padding-right:20px;
+}
+footer a:hover{
+    color: lightslategray;
+}
+
+
