@@ -1,0 +1,92 @@
+.navbar a{
+    color:lightslategray;
+    padding-right:50px;
+}
+.navbar a:hover{
+    color:#00171F;
+}
+.container1{
+    padding: 100px 40px 50px 40px;
+}
+.container1 img{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 0px;
+    margin-bottom: 0;
+    align-items: center;
+}
+.container1 h1{
+    font-size: 450%;
+    padding-top: 50px;
+    padding-right: 10px;
+}
+.container1 h1 span{
+    color: #00A8E8 ;
+}
+.tinytext{
+    font-size: 150%;
+    color: black;
+    padding-top: 20px;
+}
+.container2{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #003459;
+}
+.container2 p{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 150%;
+    color: white;
+}
+.container3
+{
+    margin:100px 0;
+    background-color: white;
+}
+th, td{
+    text-align: center;
+}
+.container4{
+    background-color: #003459;
+    padding: 50px 50px;
+}
+.container4 h5{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.container4 form{
+    max-width: 50%;
+    align-items: center;
+}
+.container4 a{
+    color:#003459 ;
+}
+.form-group{
+    padding-top: 20px;
+}
+.container4 button{
+    margin-top: 20px;
+}
+.container5 img{
+    margin: 5px 0 50px 0;
+}
+footer{
+    background-color: #00171F;
+    color: white;
+    padding-top:100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    padding-right:20px;
+}
+#links{
+    padding-right: 0;
+}
+footer a:hover{
+    color: lightslategray;
+}
