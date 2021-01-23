@@ -1,0 +1,74 @@
+[debug] [2021-01-23T18:56:24.733Z] ----------------------------------------------------------------------
+[debug] [2021-01-23T18:56:24.738Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-01-23T18:56:24.738Z] CLI Version:   9.2.2
+[debug] [2021-01-23T18:56:24.739Z] Platform:      win32
+[debug] [2021-01-23T18:56:24.739Z] Node Version:  v14.15.4
+[debug] [2021-01-23T18:56:24.752Z] Time:          Sun Jan 24 2021 00:26:24 GMT+0530 (India Standard Time)
+[debug] [2021-01-23T18:56:24.753Z] ----------------------------------------------------------------------
+[debug] [2021-01-23T18:56:24.753Z] 
+[debug] [2021-01-23T18:56:24.766Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-23T18:56:24.768Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\user\Documents\Backend-project-30dowd
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-01-23T18:56:56.008Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-01-23T18:56:56.594Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-01-23T18:56:56.594Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project sharanyahebburmurali (SharanyaHebburMurali) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-01-23T20:15:02.398Z] ----------------------------------------------------------------------
+[debug] [2021-01-23T20:15:02.402Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-01-23T20:15:02.403Z] CLI Version:   9.2.2
+[debug] [2021-01-23T20:15:02.403Z] Platform:      win32
+[debug] [2021-01-23T20:15:02.403Z] Node Version:  v14.15.4
+[debug] [2021-01-23T20:15:02.405Z] Time:          Sun Jan 24 2021 01:45:02 GMT+0530 (India Standard Time)
+[debug] [2021-01-23T20:15:02.405Z] ----------------------------------------------------------------------
+[debug] [2021-01-23T20:15:02.405Z] 
+[debug] [2021-01-23T20:15:02.418Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-23T20:15:02.419Z] > authorizing via signed-in user
+[debug] [2021-01-23T20:15:02.419Z] [iam] checking project sharanyahebburmurali for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-01-23T20:15:02.442Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-01-23T20:15:02.443Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-01-23T20:15:02.664Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Sat, 23 Jan 2021 20:15:04 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-23T20:15:02.678Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sharanyahebburmurali:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-01-23T20:15:03.884Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 23 Jan 2021 20:15:05 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1129","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-23T20:15:03.891Z] > refreshing access token with scopes: []
+[debug] [2021-01-23T20:15:03.892Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-01-23T20:15:04.032Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sat, 23 Jan 2021 20:15:06 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-23T20:15:04.059Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sharanyahebburmurali [none]
+[debug] [2021-01-23T20:15:25.084Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/sharanyahebburmurali
+[debug] [2021-01-23T20:15:25.379Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/sharanyahebburmurali
+    at Client.doRequest (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:194:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:93:20)
+    at async Object.getFirebaseProject (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:289:21)
+    at async Object.getDefaultHostingSite (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\getDefaultHostingSite.js:8:21)
+    at async requireHostingSite (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\requireHostingSite.js:9:18)
+    at async Object.fn (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\deploy.js:66:9)
+    at async C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:161:17
+[error] 
+[error] Error: Failed to get Firebase project sharanyahebburmurali. Please make sure the project exists and your account has permission to access it.
