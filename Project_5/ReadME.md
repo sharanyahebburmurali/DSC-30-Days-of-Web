@@ -6,3 +6,5 @@ Some things to consider:
 * Get a domain
 * get a hosting
 * make your website dynamic
+
+https://sharanyahebburmurali.web.app/
