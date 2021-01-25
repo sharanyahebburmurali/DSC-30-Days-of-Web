@@ -1,0 +1,85 @@
+.navbar a{
+    color:lightslategray;
+    padding-right:50px;
+}
+.navbar a:hover{
+    color:#00171F;
+}
+div.container-fluid.container1{
+    margin-top: 50px;
+    background-image: url(../images/blogname.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-attachment:scroll;
+    background-color:lightslategray;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container2{
+    margin: 50px 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.column{
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 10px;
+}
+.column img{
+    margin-top: 20px;
+    vertical-align: middle;
+    width: 100%;
+}
+.column p{
+    font-size: large;
+    padding-top: 5px;
+}
+@media screen and (max-width: 1000px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+.column a{
+    text-decoration: none;
+    color:slategray;
+}
+.column a:hover{
+    text-decoration: none;
+    color:black;
+}
+.column img:hover{
+    opacity:0.75;
+  }
+footer{
+    background-color: #00171F;
+    color: white;
+    padding-top:50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    padding-right:20px;
+    font-size: 75%;
+}
+#links{
+    padding-right: 0;
+}
+footer a:hover{
+    color: lightslategray;
+}

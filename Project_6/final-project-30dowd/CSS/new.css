@@ -1,0 +1,141 @@
+.navbar a{
+    color:lightslategray;
+    padding-right:50px;
+}
+.navbar a:hover{
+    color:#00171F;
+}
+.container1{
+    margin-top: 160px;
+    margin-bottom: 190px;
+    padding: 100px 40px 50px 40px;
+}
+.container1 img{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 0px;
+    margin-bottom: 0;
+    align-items: center;
+}
+.container1 h1{
+    font-size: 450%;
+    padding-top: 50px;
+    padding-right: 10px;
+    margin-left: 5px;
+}
+.container1 h1 span{
+    color: #00A8E8 ;
+}
+.tinytext{
+    font-size: 150%;
+    color: black;
+    padding-top: 20px;
+}
+.container2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #003459;
+}
+.container2 p{
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 180%;
+    color: white;
+}
+.container3
+{
+    margin:150px 0;
+    margin-bottom: 180px;
+    background-color: white;
+}
+th, td{
+    text-align: center;
+    font-size: large;
+}
+.container4{
+    background-color: #003459;
+    padding: 100px 50px;
+    padding-bottom: 150px;
+
+}
+.container4 h5{
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.container4 form{
+    max-width: 50%;
+    align-items: center;
+}
+.container4 a{
+    color:#003459 ;
+}
+.container4 table{
+    margin-top: 40px;
+    color: white;
+}
+.container4 th,
+.container4 td{
+    padding: 10px 10px;
+}
+.dynamicrows td{
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
+button.fas.fa-trash{
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+td button{
+    background-color: #003459;
+    color: white;
+    border: solid 1px white;
+    padding: 5px 5px;
+    border-radius: 2px;
+    margin-left: 5px;
+    
+}
+td button:hover{
+    background-color: white;
+    color: #003459;
+
+}
+/*.Rtable-cell{
+    margin-top: 20px;
+    font-size: 75%;
+    display: inline-flex;
+    padding: 10px 50px;
+    color: white;
+}*/
+.container5 img{
+    margin: 5px 0 50px 0;
+}
+footer{
+    background-color: #00171F;
+    color: white;
+    padding-top:50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    padding-right:20px;
+    font-size: 75%;
+}
+#links{
+    padding-right: 0;
+}
+footer a:hover{
+    color: lightslategray;
+}
